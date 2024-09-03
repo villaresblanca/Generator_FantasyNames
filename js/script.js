@@ -41,11 +41,11 @@ function generateName() {
 // Crear el mensaje con el nombre, significado y origen usando etiquetas HTML con clases
     const message = 
                     `<span class="name-title">Nombre:</span> <span class="name">${randomName.name}<br>` +
-                    `<span class="meaning-title">Significado:</span> <span class="meaning">${randomName.significado}<br>` +
+                    `<span class="meaning-title">Significado:</span> <span class="meaning">${randomName.meaning}<br>` +
                     `<span class="origin-title">Origen:</span> <span class="origin">${randomName.origin}</span>`;
     
     // Mostrar el mensaje en una ventana emergente
-    // alert(message);
+    //alert(message);
     
     // También puedes mostrar el nombre en el área designada si lo prefieres
     document.getElementById('name-output').innerHTML = message;
