@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Nombres de Fantasía</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Nombres de Fantasía</h1>
+        <form id="name-form">
+            <label for="gender">Selecciona el género:</label>
+            <select id="gender" name="gender">
+                <option value="male">Masculino</option>
+                <option value="female">Femenino</option>
+                <option value="nonBinary">No binario</option>
+            </select>
+            <button type="button" onclick="generateName()">Generar Nombre</button>
+        </form>
+        <div id="name-output"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
