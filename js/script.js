@@ -29,17 +29,20 @@ const names = {
 function generateName() {
     const gender = document.getElementById('gender').value;
     const nameList = names[gender];
+
     if (!nameList || nameList.length === 0) {
         alert("No hay nombres disponibles para este género.");
         return;
     }
+
     const randomIndex = Math.floor(Math.random() * nameList.length);
     const randomName = nameList[randomIndex];
     
-    // Crear el mensaje con el nombre, descripción y origen
-    const message = `Nombre generado: ${randomName.name}<br>` +
-                    `Significado: ${randomName.meaning}<br>` +
-                    `Origen: ${randomName.origin}`;
+// Crear el mensaje con el nombre, significado y origen usando etiquetas HTML con clases
+    const message = 
+                    `<span class="name-title">Nombre:</span> <span class="name">${randomName.name}<br>` +
+                    `<span class="meaning-title">Significado:</span> <span class="meaning">${randomName.significado}<br>` +
+                    `<span class="origin-title">Origen:</span> <span class="origin">${randomName.origin}</span>`;
     
     // Mostrar el mensaje en una ventana emergente
     // alert(message);
@@ -48,4 +51,4 @@ function generateName() {
     document.getElementById('name-output').innerHTML = message;
     // Usamos .innerHTML en lugar de .textContent para insertar HTML (como <br>) en el contenido del elemento.
 }
-// Puedo agregarle también la raza del personaje, origen, etc. etc.
+// Puedo agregarle también la raza del personaje, origen, inicial, etc.
