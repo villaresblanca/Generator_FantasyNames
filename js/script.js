@@ -75,7 +75,8 @@ Origen: Dialecto de los clanes de los bosques
 
 Z - Zarek
 Significado: Sombra del dragón
-Origen: Lengua de los descendientes de los dragones*/
+Origen: Lengua de los descendientes de los dragones
+Me puedes generar una lista de nombres masculinos con todas las letras del abecedario, que tengan significado, un origen y que estos nombres sean de fantasia?*/
         // Agrega más nombres aquí
     ],
     female: [
