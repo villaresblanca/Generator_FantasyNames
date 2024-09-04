@@ -10,7 +10,7 @@
       "wdth" 100;
   }
 
-  .playfair-light {
+.playfair-light {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -19,7 +19,7 @@
       "wdth" 100;
   }
 
-  .playfair-medium {
+.playfair-medium {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -28,7 +28,7 @@
       "wdth" 100;
   }
 
-  .playfair-semibold {
+.playfair-semibold {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -37,7 +37,7 @@
       "wdth" 100;
   }
 
-  .playfair-bold {
+.playfair-bold {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -46,7 +46,7 @@
       "wdth" 100;
   }
 
-  .playfair-extrabold {
+.playfair-extrabold {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -55,7 +55,7 @@
       "wdth" 100;
   }
 
-  .playfair-black {
+.playfair-black {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -64,7 +64,7 @@
       "wdth" 100;
   }
 
-  .playfair-bold-italic {
+.playfair-bold-italic {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -72,6 +72,15 @@
     font-variation-settings:
       "wdth" 100;
   }
+/*-----*/
+/*<weight>: Use a value from 200 to 800*/
+
+.manrope-medium {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
 body {
     font-family: Arial, sans-serif;
