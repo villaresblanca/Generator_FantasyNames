@@ -45,12 +45,14 @@ function generateName() {
     // Filtrar los nombres por la inicial seleccionada
     const filteredNames = initial ? nameList.filter(name => name.name.startsWith(initial)) : nameList;
     
+    // Verificar si la lista filtrada está vacía
     if (filteredNames.length === 0) {
         alert(`No hay nombres disponibles que empiecen con la letra "${initial}".`);
-        return;
+        return;  // Detener la ejecución si no hay nombres disponibles
     }
-    const randomIndex = Math.floor(Math.random() * nameList.length);
-    const randomName = nameList[randomIndex];
+
+    const randomIndex = Math.floor(Math.random() * filteredNames.length);
+    const randomName = filteredNames[randomIndex];
     
 // Crear el mensaje con el nombre, significado y origen usando etiquetas HTML con clases
     const message = 
