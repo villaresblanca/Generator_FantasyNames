@@ -4,9 +4,78 @@ const names = {
         { name: "Bran", meaning: "Cuervo", origin: "Celta" },
         { name: "Dorian", meaning: "Descendiente de Doros", origin: "Griego" },
         { name: "Elric", meaning: "gobernante eterno", origin: "Germánico" },
-        { name: "Fenric", meaning: "Vengador", origin: "Nórdico" },
         { name: "Baldric", meaning: "Gobernante audaz", origin: "Germánico" },
         { name: "Cedric", meaning: "Líder de la guerra", origin: "Inglés" },
+        { name: "Aldor", meaning: "Guerrero noble", origin: "Antiguo idioma de los guardianes del bosque"},
+        { name: "Branok", meaning: "Fuerte como el acero", origin: "Lengua de los forjadores de montañas"},
+        { name: "Caelum", meaning: "Cielo estrellado", origin: "Idioma de los sabios celestiales"},
+        { name: "Draven", meaning: "Potector de la oscuridad", origin: "Dialecto de los guardianes nocturnos"},
+        { name: "Eldric", meaning: "Rey sabio", origin: "Lenguajede la antigua dinastía"},
+        { name: "Fenric", meaning: "Lobo feroz / Vengador", origin: "Lengua de los defensores ancestrales - Nórdico"},
+        { name: "Galdor", meaning: "Canto de magia", origin: "Idioma de los bardos encantadores"},
+        { name: "Haldric", meaning: "Líder de la fortaleza", origin: "Lengua de los defensores ancestrales"},
+        { name: "Ivoran", meaning: "Guardián de los secretos", origin: "Dialecto de los custodios de conocimiento"},
+        { name: "Jareth", meaning: "Guerrero de fuego", origin: "Lenguaje de los descendientes de la lava"},
+        { name: "Kaelthor", meaning: "Destructor de sombras", origin: "Lengua de los luchadores de luz"},
+/*L - Lorian
+Significado: Luz de la esperanza
+Origen: Idioma de los iluminadores del amanecer
+
+M - Maldrek
+Significado: Destructor de enemigos
+Origen: Dialecto de los guerreros del caos
+
+N - Nerion
+Significado: Hijo del océano
+Origen: Lenguaje de los navegantes del mar
+
+O - Orionis
+Significado: Estrella fugaz
+Origen: Idioma de los astrónomos místicos
+
+P - Pyrion
+Significado: Fuego eterno
+Origen: Lengua de los maestros del volcán
+
+Q - Quorim
+Significado: Guardián de la verdad
+Origen: Dialecto de los consejeros sagrados
+
+R - Ragnar
+Significado: Guerrero del trueno
+Origen: Lengua de los vikingos míticos
+
+S - Sylas
+Significado: Protector de los bosques
+Origen: Idioma de los druida ancestrales
+
+T - Thalon
+Significado: Noble y fuerte
+Origen: Lenguaje de los señores del reino
+
+U - Ulyric
+Significado: Legado de sabiduría
+Origen: Dialecto de los eruditos de la antigua orden
+
+V - Varek
+Significado: Destructor de la oscuridad
+Origen: Lengua de los campeones de la luz
+
+W - Wraithor
+Significado: Espíritu guardián
+Origen: Idioma de los seres etéreos
+
+X - Xandar
+Significado: Defensor de la paz
+Origen: Lenguaje de los pacificadores de la era dorada
+
+Y - Yorin
+Significado: Amigo leal
+Origen: Dialecto de los clanes de los bosques
+
+Z - Zarek
+Significado: Sombra del dragón
+Origen: Lengua de los descendientes de los dragones*/
         // Agrega más nombres aquí
     ],
     female: [
