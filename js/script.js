@@ -5,8 +5,8 @@ const names = {
         { name: "Dorian", meaning: "Descendiente de Doros", origin: "Griego" },
         { name: "Elric", meaning: "gobernante eterno", origin: "Germánico" },
         { name: "Fenric", meaning: "Vengador", origin: "Nórdico" },
-        { name: "Baldric", significado: "Gobernante audaz", origin: "Germánico" },
-        { name: "Cedric", significado: "Líder de la guerra", origin: "Inglés" },
+        { name: "Baldric", meaning: "Gobernante audaz", origin: "Germánico" },
+        { name: "Cedric", meaning: "Líder de la guerra", origin: "Inglés" },
         // Agrega más nombres aquí
     ],
     female: [
@@ -15,8 +15,8 @@ const names = {
         { name: "Calia", meaning: "Bella", origin: "Griego" },
         { name: "Eldira", meaning: "Usado en literatura de fantasía", origin: "Ficticio" },
         { name: "Fiona", meaning: "Blanca", origin: "Gaélico" },
-        { name: "Beatrix", significado: "Viajera", origin: "Latino" },
-        { name: "Callista", significado: "La más hermosa", origin: "Griego" },
+        { name: "Beatrix", meaning: "Viajera", origin: "Latino" },
+        { name: "Callista", meaning: "La más hermosa", origin: "Griego" },
         // Agrega más nombres aquí
     ],
     nonBinary: [
@@ -25,8 +25,8 @@ const names = {
         { name: "Dru", meaning: "Sabio", origin: "Celta" },
         { name: "Ezra", meaning: "Ayuda", origin: "Hebreo" },
         { name: "Kai", meaning: "Mar", origin: "Hawaiano" },
-        { name: "Briar", significado: "Zarza", origin: "Inglés" },
-        { name: "Ciel", significado: "Cielo", origin: "Francés" },
+        { name: "Briar", meaning: "Zarza", origin: "Inglés" },
+        { name: "Ciel", meaning: "Cielo", origin: "Francés" },
         // Agrega más nombres aquí
     ]
 };
