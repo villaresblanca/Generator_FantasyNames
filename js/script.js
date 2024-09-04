@@ -5,6 +5,8 @@ const names = {
         { name: "Dorian", meaning: "Descendiente de Doros", origin: "Griego" },
         { name: "Elric", meaning: "gobernante eterno", origin: "Germánico" },
         { name: "Fenric", meaning: "Vengador", origin: "Nórdico" },
+        { name: "Baldric", significado: "Gobernante audaz", origin: "Germánico" },
+        { name: "Cedric", significado: "Líder de la guerra", origin: "Inglés" },
         // Agrega más nombres aquí
     ],
     female: [
@@ -13,6 +15,8 @@ const names = {
         { name: "Calia", meaning: "Bella", origin: "Griego" },
         { name: "Eldira", meaning: "Usado en literatura de fantasía", origin: "Ficticio" },
         { name: "Fiona", meaning: "Blanca", origin: "Gaélico" },
+        { name: "Beatrix", significado: "Viajera", origin: "Latino" },
+        { name: "Callista", significado: "La más hermosa", origin: "Griego" },
         // Agrega más nombres aquí
     ],
     nonBinary: [
@@ -21,6 +25,8 @@ const names = {
         { name: "Dru", meaning: "Sabio", origin: "Celta" },
         { name: "Ezra", meaning: "Ayuda", origin: "Hebreo" },
         { name: "Kai", meaning: "Mar", origin: "Hawaiano" },
+        { name: "Briar", significado: "Zarza", origin: "Inglés" },
+        { name: "Ciel", significado: "Cielo", origin: "Francés" },
         // Agrega más nombres aquí
     ]
 };
@@ -28,6 +34,7 @@ const names = {
 
 function generateName() {
     const gender = document.getElementById('gender').value;
+    const initial = document.getElementById('initial').value;
     const nameList = names[gender];
 
     if (!nameList || nameList.length === 0) {
@@ -35,6 +42,13 @@ function generateName() {
         return;
     }
 
+    // Filtrar los nombres por la inicial seleccionada
+    const filteredNames = initial ? nameList.filter(name => name.name.startsWith(initial)) : nameList;
+    
+    if (filteredNames.length === 0) {
+        alert(`No hay nombres disponibles que empiecen con la letra "${initial}".`);
+        return;
+    }
     const randomIndex = Math.floor(Math.random() * nameList.length);
     const randomName = nameList[randomIndex];
     

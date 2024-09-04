@@ -11,19 +11,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
     <div class="container">
         <h1 class="playfair-bold-italic">Nombres de Fantasía</h1>
         <form id="name-form">
             <label for="gender">Selecciona el género:</label>
-            <select id="gender" name="gender">
+            <select id="gender" name="gender" class="manrope-medium">
                 <option value="male">Masculino</option>
                 <option value="female">Femenino</option>
                 <option value="nonBinary">No binario</option>
             </select>
-            <button type="button" onclick="generateName()">Generar Nombre</button>
+
+            <label for="initial">Selecciona la inicial:</label>
+            <select id="initial" name="initial">
+                <option value="">Cualquiera</option>
+                <!-- Se pueden agregar más opciones según las iniciales disponibles -->
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+                <option value="I">I</option>
+                <option value="J">J</option>
+                <option value="K">K</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="N">N</option>
+                <option value="Ñ">Ñ</option>
+                <option value="O">O</option>
+                <option value="P">P</option>
+                <option value="Q">Q</option>
+                <option value="R">R</option>
+                <option value="S">S</option>
+                <option value="T">T</option>
+                <option value="U">U</option>
+                <option value="V">V</option>
+                <option value="W">W</option>
+                <option value="X">X</option>
+                <option value="Y">Y</option>
+                <option value="Z">Z</option>
+                <!-- Agrega más iniciales según tus nombres -->
+            </select>
+
+            <button type="button" onclick="generateName()" class="playfair-regular">Generar Nombre</button>
         </form>
         <div id="name-output"></div>
     </div>
