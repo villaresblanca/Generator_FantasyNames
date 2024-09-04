@@ -1,24 +1,38 @@
+/*Google Fonts*/
+/*<uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 300 to 900*/
+.playfair-italic {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #7edc8b;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 700px;
     margin: 0;
 }
 
 .container {
     text-align: center;
     background: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
     margin-bottom: 20px;
-    font-style: italic; /* Opcional: estilizar el origen en cursiva */
+    font-size: 50px;
 }
 
 form {
