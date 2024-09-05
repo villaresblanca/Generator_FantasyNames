@@ -33,66 +33,7 @@ const names = {
         {name: "Yorin", meaning: "Amigo leal", origin: "Dialecto de los clanes de los bosques"},
         {name: "Zarek", meaning: "Sombra del dragón", origin: "Lengua de los descendientes de los dragones"},
         {name: "", meaning: "", origin: ""},
-/*L - Lorian
-Significado: Luz de la esperanza
-Origen: Idioma de los iluminadores del amanecer
-
-M - Maldrek
-Significado: Destructor de enemigos
-Origen: Dialecto de los guerreros del caos
-
-N - Nerion
-Significado: Hijo del océano
-Origen: Lenguaje de los navegantes del mar
-
-O - Orionis
-Significado: Estrella fugaz
-Origen: Idioma de los astrónomos místicos
-
-P - Pyrion
-Significado: Fuego eterno
-Origen: Lengua de los maestros del volcán
-
-Q - Quorim
-Significado: Guardián de la verdad
-Origen: Dialecto de los consejeros sagrados
-
-R - Ragnar
-Significado: Guerrero del trueno
-Origen: Lengua de los vikingos míticos
-
-S - Sylas
-Significado: Protector de los bosques
-Origen: Idioma de los druida ancestrales
-
-T - Thalon
-Significado: Noble y fuerte
-Origen: Lenguaje de los señores del reino
-
-U - Ulyric
-Significado: Legado de sabiduría
-Origen: Dialecto de los eruditos de la antigua orden
-
-V - Varek
-Significado: Destructor de la oscuridad
-Origen: Lengua de los campeones de la luz
-
-W - Wraithor
-Significado: Espíritu guardián
-Origen: Idioma de los seres etéreos
-
-X - Xandar
-Significado: Defensor de la paz
-Origen: Lenguaje de los pacificadores de la era dorada
-
-Y - Yorin
-Significado: Amigo leal
-Origen: Dialecto de los clanes de los bosques
-
-Z - Zarek
-Significado: Sombra del dragón
-Origen: Lengua de los descendientes de los dragones
-Me puedes generar una lista de nombres masculinos con todas las letras del abecedario, que tengan significado, un origen y que estos nombres sean de fantasia?*/
+/*Me puedes generar una lista de nombres masculinos con todas las letras del abecedario, que tengan significado, un origen y que estos nombres sean de fantasia?*/
         // Agrega más nombres aquí
     ],
     female: [
