@@ -68,7 +68,7 @@ const names = {
             {name: "Ethlor", meaning: "Portador de la sabiduría", origin: "Lenguaje de los sabios ancestrales"},
         //F
             {name: "Fenric", meaning: "Lobo feroz / Vengador", origin: "Lengua de los defensores ancestrales - Nórdico"},
-            {name: "", meaning: "", origin: ""},
+            {name: "Faldorn", meaning: "Guardián del bosque antiguo", origin: "Lengua de los druidas ancestrales"},
             {name: "", meaning: "", origin: ""},
             {name: "", meaning: "", origin: ""},
             {name: "", meaning: "", origin: ""},
